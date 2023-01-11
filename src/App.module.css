@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  margin: 5rem auto;
+}
+
+.frame_one {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: 38px;
+  border-radius: 9.6px;
+
+  background-color: var(--purple-700);
+}
+
+.frame_one_title h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.frame_one_title p {
+  font-size: 19px;
+  color: var(--gray-400);
+}
+
+.frame_one_play {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_frames {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.frame_second {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+
+  padding: 28px;
+  background-color: var(--purple-700);
+  border-radius: 9px;
+}
+
+.frame_title_container {
+  display: flex;
+  gap: 29px;
+}
+
+.frame_third {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+
+  padding: 28px;
+  background-color: var(--purple-700);
+  border-radius: 9px;
+}
+
+.music_minutes {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--gray-400);
+}
+
+.progress_bar {
+  height: 6px;
+  width: 100%;
+  background: var(--gray-400);
+  border-radius: 40px;
+}
+
+.progress_bar div {
+  height: 100%;
+  width: 88%;
+  background-color: var(--gray-300);
+  border-radius: 40px;
+  text-align: right;
+}
+
+.frame_content_play {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
